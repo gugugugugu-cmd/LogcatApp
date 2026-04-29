@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LogcatApp</string>
+    <string name="log_title">日志</string>
+    <string name="help">帮助</string>
+    <string name="add_test_log">添加日志</string>
+    <string name="log_added">已添加日志</string>
+    <string name="log_cleared">日志已清空</string>
+    <string name="number">number</string>
+    <string name="icon">icon</string>
+    <string name="log_help_text">这是一个独立日志 App。\n\n1. 页面会自动刷新日志内容。\n2. 右上角可以手动添加测试日志。\n3. 右下角上方按钮可以追加一条日志。\n4. 右下角下方按钮可以清空日志。\n5. 日志保存在 App 私有目录中的 app.log 文件。</string>
+</resources>
