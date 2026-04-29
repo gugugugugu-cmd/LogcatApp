@@ -51,7 +51,7 @@ public class LogcatFragment extends Fragment {
         logView.setMovementMethod(ScrollingMovementMethod.getInstance());
 
         fabAdd.setOnClickListener(v -> {
-            LogStore.appendLog(requireContext(), "点击了记录按钮");
+            LogStore.appendLog(requireContext(), "手动添加一条测试日志");
             Toast.makeText(requireContext(), R.string.log_added, Toast.LENGTH_SHORT).show();
             refreshLogs();
         });
@@ -63,9 +63,7 @@ public class LogcatFragment extends Fragment {
             refreshLogs();
         });
 
-        LogStore.appendLog(requireContext(), "日志页面已打开");
         refreshLogs();
-
         return view;
     }
 

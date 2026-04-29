@@ -34,9 +34,7 @@ public class LogStore {
 
     public static synchronized String readLogs(Context context) {
         File file = getLogFile(context);
-        if (!file.exists()) {
-            return "";
-        }
+        if (!file.exists()) return "";
 
         StringBuilder sb = new StringBuilder();
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {

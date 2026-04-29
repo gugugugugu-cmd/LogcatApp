@@ -7,5 +7,5 @@
     <string name="log_cleared">日志已清空</string>
     <string name="number">number</string>
     <string name="icon">icon</string>
-    <string name="log_help_text">这是一个独立日志 App。\n\n1. 页面会自动刷新日志内容。\n2. 右上角可以手动添加测试日志。\n3. 右下角上方按钮可以追加一条日志。\n4. 右下角下方按钮可以清空日志。\n5. 日志保存在 App 私有目录中的 app.log 文件。</string>
+    <string name="log_help_text">这是第一阶段增强版日志 App。\n\n功能包括：\n1. 自动记录前台应用切换。\n2. 记录应用打开、关闭和运行时长。\n3. 记录电量、温度、电压和充电状态变化。\n4. 记录屏幕亮灭事件。\n5. 需要手动授予“使用情况访问权限”。</string>
 </resources>
